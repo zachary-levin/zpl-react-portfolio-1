@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(199, 241, 241);
+  color: rgb(68, 88, 118);
+  font-family: Helvetica, Arial, sans-serif
+}
+
+header {
+  background-color: rgb(49, 81, 82);
+  padding: 20px 35px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+}
+
+header h1 {
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  font-size: 60px;
+  color: rgb(146, 204, 205);
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+header a {
+  background-color: rgb(22, 96, 97);
+  color: rgb(146, 204, 205);
+  text-decoration: none;
+  padding: 20px 35px;
+  margin: left;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+/* Styles for navigation text elements */
+header nav ul li a {
+  padding: 10px 15px;
+  background-color: rgb(49, 81, 82);
+  color: rgb(146, 204, 205);
+  text-decoration: underline;
+}
+
+/* Styles for hero (add background img, background-attachment , */  
+
+.hero {
+  background-image: url("images/hero-bg.jpg");
+  height: 40%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: 80%;
+  align-items: flex-start;
+  background-color: rgb(199, 241, 241);
+}
+
+
+/* Styles for hero-subtitle div class */
+
+.hero-subtitle {
+  color:rgb(146, 204, 205);
+}
+
+section {
+  padding: 50px;
+}
+
+.about {
+ display: flex;
+}
+
+.about h1 {
+  font-size: 40px;
+  align-self: stretch;
+  flex: 0 0 10%;
+  border-right: solid;
+  text-align: right;
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+.about-subtitle {
+  align-self: stretch;
+  padding: 2px;
+  flex: 0 0 60%;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.about-subtitle img {
+  width: 200px;
+  height: 200px;
+}
+
+.work {
+  display: flex;
+  width: 100vw;
+}
+
+.work h2 {
+  font-size: 40px;
+  border-right: solid;
+  align-self: stretch;
+  padding-right: 15px;
+}
+
+.main-work {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.main-work > a,
+.main-work > img {
+  width: 31%;
+  padding-left: 2%;
+  border-color: gray;
+  border-radius: 5px;
+}
+
+.main-work > a:first-child {
+  width: 100%;
+}
+
+.other-works img {
+  width: 50%;
+  height: 25%;
+  padding-left: 2%;
+  border-color: gray;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact h2 {
+  font-size: 40px;
+  border-right: solid;
+  align-self: stretch;
+  padding-right: 2%;
+  text-align: right;
+}
+
+.contact-subtitle {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact-subtitle nav ul {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row; 
+  flex: 0 0 10%;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  padding: 30px 0px 30px 0px;
+  align-items: flex-start;
+  list-style: none;
+}
+
+.contact-subtitle nav ul li {
+  color: rgb(68, 88, 118);
+  padding: 10px 20px;
+  justify-content: space-evenly;
+  text-decoration: underline;
+}
