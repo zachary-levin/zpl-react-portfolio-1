@@ -2,9 +2,12 @@ import React from 'react';
 
 export default function About() {
   return (
+
     <div>
       <h1>About Page</h1>
+      <img class='about-subtitle' src={require(`../../images/Nice-pic-of-me.jpg`)} />
       <p>
+        My name is Zachary Levin. (FINISH BIO HERE)
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

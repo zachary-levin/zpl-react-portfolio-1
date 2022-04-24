@@ -13,7 +13,7 @@ function Project() {
 
         
         <a href="https://dmevola.github.io/fruitfacts/" alt="Fruit Facts group project">
-            <img src="./assets/images/fruitfacts-preview.png" alt="Preview of Fruit Facts application" />
+            <img src="../images/fruitfacts-preview.png" alt="Preview of Fruit Facts application" />
         </a>
 
          
