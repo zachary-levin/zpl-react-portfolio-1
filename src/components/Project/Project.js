@@ -2,6 +2,7 @@ import React from "react";
 // Insert 5 images (first is run-buddy, rest are placeholders)
 // Later on, add small GitHub logos next to the works that link to the respective repos for each project.
 
+import fruitFacts from '../../images/fruitfacts-preview.png';
 import '../../App.css';
 
 function Project() {
@@ -15,7 +16,7 @@ function Project() {
 
         
         <a href="https://dmevola.github.io/fruitfacts/" alt="Fruit Facts group project">
-            <img src="../images/fruitfacts-preview.png" alt="Preview of Fruit Facts application" />
+            <img src={fruitFacts} alt="Preview of Fruit Facts application" />
         </a>
 
          
