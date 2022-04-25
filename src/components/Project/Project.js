@@ -2,13 +2,15 @@ import React from "react";
 // Insert 5 images (first is run-buddy, rest are placeholders)
 // Later on, add small GitHub logos next to the works that link to the respective repos for each project.
 
+import '../../App.css';
+
 function Project() {
 
     return (
     <div class="main-work">
         
         <a href="https://zachary-levin.github.io/run-buddy/">
-            <img src="./assets/images/run-buddy.jpg" alt="Preview of Run Buddy website." />
+            <img src={require("../../images/run-buddy.jpg")} alt="Preview of Run Buddy website." />
         </a>
 
         
