@@ -3,6 +3,8 @@ import React from "react";
 // Later on, add small GitHub logos next to the works that link to the respective repos for each project.
 
 import fruitFacts from '../../images/fruitfacts-preview.png';
+// Images can be imported either with 'import (const variable used for image) from 'path';' then putting the const in curly brackets after 'src='.
+// OR by doing 'src={require(path for image)}' 
 import '../../App.css';
 
 function Project() {
