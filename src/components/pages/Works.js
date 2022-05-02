@@ -3,12 +3,12 @@ import Project from '../Project/Project';
 
 export default function Works() {
   return (
-    <div>
+    <div className='worksSection'>
       <h1>Works</h1>
       <p>
         Below are some of the projects I have worked on:
       </p>
-    <Project></Project>
+    <Project />
     </div>
   );
 }

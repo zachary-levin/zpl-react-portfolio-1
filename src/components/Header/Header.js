@@ -1,13 +1,18 @@
 import React from "react";
-import Nav from '../Navigation';
+import NavTabs from "../NavTabs";
 
-function Header() {
+function Header({
+    currentPage, handlePageChange
+}) {
 return (
     <header>
         <h1>
-            <a href="/">Levin</a>
+            <a href="#home"
+                onClick={() => handlePageChange('Home')} >
+                Levin
+            </a>
         </h1>
-        <Nav />
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}  />
     </header>
 )
     
