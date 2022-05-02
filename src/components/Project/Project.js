@@ -23,12 +23,12 @@ function Project() {
 
          
         <a href="https://evening-fjord-78812.herokuapp.com/" alt="Family Fit group project">
-            <img src="./assets/images/family_fit.png" alt="Family Fit preview" />
+            <img src={require("../../images/family_fit.png")} alt="Family Fit preview" />
         </a>
-        <img src="./assets/images/calculator.jpg" alt="Preview of Calculator placeholder" />
-        <img src="./assets/images/Led-wall-placeholder.png" alt="Preview of LED wall placeholder." />
-        <img src="./assets/images/puzzle-pieces.jpg" alt="Preview of Puzzle Pieces placeholder." />
-        <img src="./assets/images/surf.jpg" alt="Preview of Surf placeholder." />
+        <img src={require("../../images/calculator.jpg")} alt="Preview of Calculator placeholder" />
+        <img src={require("../../images/Led-wall-placeholder.png")} alt="Preview of LED wall placeholder." />
+        <img src={require("../../images/puzzle-pieces.jpg")} alt="Preview of Puzzle Pieces placeholder." />
+        <img src={require("../../images/surf.jpg")} alt="Preview of Surf placeholder." />
     </div>
     )
 }
