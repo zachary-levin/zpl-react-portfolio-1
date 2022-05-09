@@ -37,6 +37,8 @@ function Project() {
 
 export default Project;
 
+// Change code on lines 25-27 and 30-32 to look like Run Buddy code structure on lines 15-22
+
 // Projects:
 // Run Buddy Module 1 and 2 Project, add a small Github logo image that links to the repo later on
 // Fruit Facts Group Project 1 Application, make sure to add a small image that links to the repo later on
