@@ -25,10 +25,7 @@ function Project() {
         <a href="https://evening-fjord-78812.herokuapp.com/" alt="Family Fit group project">
             <img src={require("../../images/family_fit.png")} alt="Family Fit preview" />
         </a>
-        <img src={require("../../images/calculator.jpg")} alt="Preview of Calculator placeholder" />
-        <img src={require("../../images/Led-wall-placeholder.png")} alt="Preview of LED wall placeholder." />
-        <img src={require("../../images/puzzle-pieces.jpg")} alt="Preview of Puzzle Pieces placeholder." />
-        <img src={require("../../images/surf.jpg")} alt="Preview of Surf placeholder." />
+
     </div>
     )
 }
@@ -39,3 +36,11 @@ export default Project;
 // Run Buddy Module 1 and 2 Project, add a small Github logo image that links to the repo later on
 // Fruit Facts Group Project 1 Application, make sure to add a small image that links to the repo later on
 // Family Fit Group Project 2 Application, make sure to add a small image that links to the repo later on
+
+// Placeholder images code:
+/*
+        <img src={require("../../images/calculator.jpg")} alt="Preview of Calculator placeholder" />
+        <img src={require("../../images/Led-wall-placeholder.png")} alt="Preview of LED wall placeholder." />
+        <img src={require("../../images/puzzle-pieces.jpg")} alt="Preview of Puzzle Pieces placeholder." />
+        <img src={require("../../images/surf.jpg")} alt="Preview of Surf placeholder." />
+*/
