@@ -6,7 +6,7 @@ export default function About() {
 
     <div>
       <h1>About Page</h1>
-      <img className='about-subtitle' alt="Me" src={require(`../../images/Nice-pic-of-me.jpg`)} />
+      <img className='about-subtitle' alt="Me" id="profileImage" src={require(`../../images/Nice-pic-of-me.jpg`)} />
       <p>
         My name is Zachary Levin. I am a Full-Stack web developer pivoting from a game development background. I have a bachelor’s degree in Media Arts and Game Design from UW-Whitewater. 
         I recently obtained a certificate in full stack development from Michigan State University, with newly developed skills in JavaScript, Node.js, React.js, and responsive web design. 

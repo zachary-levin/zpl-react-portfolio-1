@@ -12,18 +12,23 @@ function Project() {
     return (
     <div class="main-work">
         
-        <a href="https://zachary-levin.github.io/run-buddy/">
-            <img src={require("../../images/run-buddy.jpg")} alt="Preview of Run Buddy website." />
-        </a>
+        <div>
+            <img src={require("../../images/run-buddy.jpg")} alt="Preview of Run Buddy website." id="bigImage" />
+            <div className="hide text-title">
+                <a href="https://zachary-levin.github.io/run-buddy/" >
+                    Run Buddy
+                </a>
+            </div>
+        </div>
 
         
-        <a href="https://dmevola.github.io/fruitfacts/" alt="Fruit Facts group project">
-            <img src={fruitFacts} alt="Preview of Fruit Facts application" />
+        <a href="https://dmevola.github.io/fruitfacts/"  alt="Fruit Facts group project">
+            <img src={fruitFacts} alt="Preview of Fruit Facts application" id="smallImage" />
         </a>
 
          
-        <a href="https://evening-fjord-78812.herokuapp.com/" alt="Family Fit group project">
-            <img src={require("../../images/family_fit.png")} alt="Family Fit preview" />
+        <a href="https://evening-fjord-78812.herokuapp.com/"  alt="Family Fit group project">
+            <img src={require("../../images/family_fit.png")} alt="Family Fit preview" id="smallImage" />
         </a>
 
     </div>

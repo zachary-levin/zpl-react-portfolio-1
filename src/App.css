@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+body, html, #root {
   background-color: rgb(199, 241, 241);
   color: rgb(68, 88, 118);
   font-family: Helvetica, Arial, sans-serif;
   /* margin: 0 0 100px; */
-  min-height: 100vh;
+   /* height: 100%; */
 }
 
 header {
@@ -31,8 +31,23 @@ header h1 {
 }
 
 /* Images are affecting Works section, need to mess around with it to make page look nice */
+
 img {
-  max-width: 100px;
+  justify-content: space-between;
+}
+
+#profileImage {
+  max-width: 200px;
+}
+
+#bigImage {
+  max-width: 500px;
+  margin: 0 5px 0 5px;
+}
+
+#smallImage {
+  max-width: 325px;
+  margin: 0 5px 0 5px;
 }
 
 header a {
@@ -137,7 +152,6 @@ section {
   width: 75%;
 }
 
-.main-work > a,
 .main-work > img {
   width: 31%;
   padding-left: 2%;
@@ -145,9 +159,7 @@ section {
   border-radius: 5px;
 }
 
-.main-work > a:first-child {
-  width: 100%;
-}
+
 
 .other-works img {
   width: 50%;
@@ -202,8 +214,33 @@ section {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
-  height: 80px;
   width: 100%;
+  background-color: rgb(49, 81, 82);
+  padding: 20px 35px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+.text-title {
+  position: relative;
+  bottom: 200px;
+}
+
+#bigImage:hover {
+  opacity: 0.2;
+}
+
+#bigImage:hover + .hide {
+  display: block;
+}
+
+#smallImage:hover {
+  opacity: 0.5;
 }
