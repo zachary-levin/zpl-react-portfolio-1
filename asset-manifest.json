@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/zpl-react-portfolio-1/static/css/main.82b53e95.css",
-    "main.js": "/zpl-react-portfolio-1/static/js/main.7c2bd47d.js",
+    "main.css": "/zpl-react-portfolio-1/static/css/main.55ed496f.css",
+    "main.js": "/zpl-react-portfolio-1/static/js/main.770ab54e.js",
+    "static/media/family_fit.png": "/zpl-react-portfolio-1/static/media/family_fit.2c49c9fa8c7fbdd70e80.png",
     "static/media/run-buddy.jpg": "/zpl-react-portfolio-1/static/media/run-buddy.b60bb4bfe82d7a6ff083.jpg",
     "static/media/Nice-pic-of-me.jpg": "/zpl-react-portfolio-1/static/media/Nice-pic-of-me.c4475e5ba5ca6adb61a3.jpg",
     "static/media/fruitfacts-preview.png": "/zpl-react-portfolio-1/static/media/fruitfacts-preview.8d407c78f5720b231f1d.png",
+    "static/media/ProfessionalReadmeGeneratorApplication.png": "/zpl-react-portfolio-1/static/media/ProfessionalReadmeGeneratorApplication.1bda58699f408bc01a48.png",
     "index.html": "/zpl-react-portfolio-1/index.html",
-    "main.82b53e95.css.map": "/zpl-react-portfolio-1/static/css/main.82b53e95.css.map",
-    "main.7c2bd47d.js.map": "/zpl-react-portfolio-1/static/js/main.7c2bd47d.js.map"
+    "main.55ed496f.css.map": "/zpl-react-portfolio-1/static/css/main.55ed496f.css.map",
+    "main.770ab54e.js.map": "/zpl-react-portfolio-1/static/js/main.770ab54e.js.map"
   },
   "entrypoints": [
-    "static/css/main.82b53e95.css",
-    "static/js/main.7c2bd47d.js"
+    "static/css/main.55ed496f.css",
+    "static/js/main.770ab54e.js"
   ]
 }
