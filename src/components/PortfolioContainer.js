@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Works from './pages/Works';
-import Contact from './pages/Contact';
+import Contact from './pages/ContactPage';
 import Header from './Header/Header';
 // import Nav from './Navigation';
 // import Project from './Project/Project';
