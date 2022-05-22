@@ -10,7 +10,7 @@ import React from "react";
 function Contact() {
     return (
         <div class="contact">
-            
+
             <ul>
             <li>            
             <div class="email">
@@ -45,9 +45,18 @@ function Contact() {
             </li>
 
             <li>
-            <div>
-                <h1>Resume:</h1>
+            <div class="resume">
+
+                <h1>
+                    Resume:
+                </h1>
+
+            <div class="resume-image">
+
             </div>
+            
+            </div>
+
             </li>
             
             </ul>
