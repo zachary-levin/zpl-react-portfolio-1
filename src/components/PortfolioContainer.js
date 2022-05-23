@@ -9,8 +9,10 @@ import Header from './Header/Header';
 // import Project from './Project/Project';
 import Footer from './Footer/Footer';
 
+// Landing page will be "Home" page
+
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
