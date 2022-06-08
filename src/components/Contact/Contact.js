@@ -48,7 +48,9 @@ function Contact() {
             <div class="resume">
 
                 <h1>
-                    Resume:
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vSGC-aekBuZiIwVzv3PVb5ThQrEn-HfTMyts4n7BtolGHAtA_X_eUPjp9s-kJYIK69qSxHjsRpliJ9j/pub">
+                    Resume
+                    </a>
                 </h1>
 
             <div class="resume-image">
